@@ -1,0 +1,52 @@
+h1 {
+  color: #14274E;
+	font-size: 50px;
+	font-family: Roboto, monospace;
+}
+h2 {
+  color: whitesmoke;
+	font-size: 30px;
+	font-family: Courrier;
+}
+p {
+  color: whitesmoke;
+	font-size: 20px;
+	font-family: Courrier;
+}
+body {
+	background-color: #73ffe5;
+}
+.container {
+	width: 700px;
+	margin:40px auto;	
+}
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+.card-orange {
+	background-color: royalblue;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgb(0,0,0);
+	border-radius: 30px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+}
+.btn-blue {
+	background-color:orange;
+	color: skyblue;
+	padding: 15px, 20px;
+	border-radius:4px;
+}
+#introduction p {
+	margin-bottom:20px;
+}
